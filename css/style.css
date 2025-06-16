@@ -2,3 +2,75 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ff2e2e, #ff683a, #ffca1f);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(250, 243, 243);
+    padding: 30px 40px;
+    border-radius: 13px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 310px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: #c90000;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #c90000;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c90000;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #da0101;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f00000;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #c90000;
+}

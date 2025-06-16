@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+      <!-- Meta data section -->
+    <meta charset="utf-8">
+    <meta name="description" content="Number generator webpage">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Zoey Kariyal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    
+    <title>Product of Numbers in JS</title>
+
   </head>
   <body>
-    <p>Paragraph</p>
+    <div class="container">
+      <div class="card">
+        <h2>Product of Numbers</h2>
+        <label for="minNumber">Positive Number:</label>
+        <input type="number" id="minNumber" placeholder="Enter number here" />
+        <label for="maxNumber">Negative Number:</label>
+        <input type="number" id="maxNumber" placeholder="Enter number here" />
+        <button onclick="generateNumber()">Calculate product</button>
+        <div id="result"></div>
+      </div>
+    </div>
+
   </body>
 </html>
